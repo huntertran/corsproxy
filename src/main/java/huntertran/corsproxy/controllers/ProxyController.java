@@ -23,7 +23,7 @@ public class ProxyController {
         HttpResponse<String> response = null;
 
         HttpRequest request = HttpRequest.newBuilder()
-                                         .uri(URI.create(apiPrefix + api))
+                                         .uri(URI.create(apiPrefix + api.replace(" ", "%20")))
                                          .header("Authorization", authorization)
                                          .build();
         try {
