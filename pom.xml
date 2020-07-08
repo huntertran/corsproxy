@@ -11,7 +11,7 @@
 	</parent>
 	<groupId>huntertran</groupId>
 	<artifactId>corsproxy</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<name>corsproxy</name>
 	<description>A simple proxy to enable CORS for unsupported APIs</description>
 	<properties>

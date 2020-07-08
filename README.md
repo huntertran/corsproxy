@@ -7,5 +7,7 @@ A really simple proxy to enable CORS for unsupported site. Proof-of-concept for 
 
 ```s
 az login
+mvn clean
+mvn package
 mvn azure-webapp:deploy
 ```
